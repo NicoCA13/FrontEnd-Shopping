@@ -1,0 +1,17 @@
+.span-zona-opinion {
+  display: flex;
+  gap: 20px;
+}
+.span-ingresar-carrito {
+  gap: 10px;
+  align-items: center;
+  display: flex;
+}
+.header-la-pasiva {
+  background-color: aqua;
+  position: sticky;
+  top: 0px;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+}

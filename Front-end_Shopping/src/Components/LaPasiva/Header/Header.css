@@ -1,0 +1,36 @@
+.Imagen-header {
+  width: 100%;
+  background-image: url("https://habitue-img.s3.sa-east-1.amazonaws.com/imagenes/1645475204.Banner%20%E2%80%93%207.png");
+}
+.Imagen-Pasiva {
+  background-image: url("https://habitue-img.s3.sa-east-1.amazonaws.com/imagenes/1645475204.Banner%20%E2%80%93%207.png");
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagenpasivaimg {
+  width: 200px;
+}
+.pequeñodiv {
+  align-items: center;
+  display: flex;
+  border-radius: 20px;
+  width: 400px;
+  background-color: aliceblue;
+  flex-direction: column;
+  color: green;
+}
+ol {
+  list-style: none;
+}
+div > button {
+  background-color: green;
+  border-radius: 15px;
+  color: white;
+  padding: 8px;
+  width: 100px;
+  margin-bottom: 15px;
+  border: 2px;
+}
