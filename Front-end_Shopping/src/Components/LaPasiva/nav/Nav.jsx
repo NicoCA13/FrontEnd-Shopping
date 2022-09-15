@@ -5,13 +5,27 @@ function Nav() {
   return (
     <div className="header-la-pasiva">
       <span className="span-zona-opinion">
-        <p> ZONAS Y CONTANCTO</p>
-        <p>DEJANOS TU OPINION</p>
+        <p>
+          <a href="#" className="titulosNav">
+            ZONAS Y CONTACTOS
+          </a>
+        </p>
+        <p className="titulosNav">
+          <a href="#" className="titulosNav">
+            DEJANOS TU OPINION
+          </a>
+        </p>
       </span>
       <span className="span-ingresar-carrito">
-        <p>INGRESAR</p>
+        <p className="titulosNav">
+          <a href="#" className="titulosNav">
+            INGRESAR
+          </a>
+        </p>
         <span>
-          <img width={20} src={carrito} alt="" />
+          <a href="#">
+            <img width={20} src={carrito} alt="" />
+          </a>
         </span>
       </span>
     </div>

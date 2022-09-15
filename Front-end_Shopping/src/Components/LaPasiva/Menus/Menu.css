@@ -1,0 +1,40 @@
+.contenedorPadre {
+  position: relative;
+}
+.contenedorIzq {
+  width: 25%;
+  overflow-y: scroll;
+  background-color: white;
+}
+.listaMenu {
+  background-color: white;
+  color: black;
+  border-radius: 15px;
+  padding: 7px 12px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+}
+.lista {
+  list-style: none;
+  display: flex;
+  margin: 7px;
+}
+.listaMenu:hover {
+  background-color: #6c8454;
+  color: white;
+}
+
+.contenedorDer {
+  background-color: #282b2e;
+  width: 70.5%;
+  position: absolute;
+  top: 0%;
+  left: 25%;
+  padding: 25px 40px;
+}
+.tituloMenu {
+  color: white;
+  font-weight: 10 0;
+  font-size: 60px;
+}

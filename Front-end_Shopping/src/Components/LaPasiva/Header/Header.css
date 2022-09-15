@@ -1,36 +1,39 @@
-.Imagen-header {
-  width: 100%;
-  background-image: url("https://habitue-img.s3.sa-east-1.amazonaws.com/imagenes/1645475204.Banner%20%E2%80%93%207.png");
-}
 .Imagen-Pasiva {
   background-image: url("https://habitue-img.s3.sa-east-1.amazonaws.com/imagenes/1645475204.Banner%20%E2%80%93%207.png");
   height: 400px;
+  background-repeat: round;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
 .imagenpasivaimg {
-  width: 200px;
+  width: 250px;
+  padding-top: 10px;
 }
 .pequeñodiv {
-  align-items: center;
   display: flex;
-  border-radius: 20px;
-  width: 400px;
-  background-color: aliceblue;
   flex-direction: column;
-  color: green;
-}
-ol {
-  list-style: none;
-}
-div > button {
-  background-color: green;
+  align-items: center;
   border-radius: 15px;
+  width: 27%;
+  height: 65%;
+  background-color: white;
+  color: #7ed321;
+}
+.butHorarios {
+  display: flex;
+  justify-content: center;
+  background-color: #6c8454;
+  border-radius: 25px;
   color: white;
   padding: 8px;
   width: 100px;
-  margin-bottom: 15px;
-  border: 2px;
+  text-decoration: none;
+}
+.butHorarios:hover {
+  color: black;
+}
+.listadelivery {
+  font-weight: 700;
 }

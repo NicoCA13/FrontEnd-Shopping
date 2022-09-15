@@ -7,11 +7,13 @@ function Header() {
     <div className="Imagen-Pasiva">
       <div className="pequeñodiv">
         <img className="imagenpasivaimg" src={imagenpasiva} alt="" />
-        <ol>
-          <li>Delivery abierto</li>
-          <li>Take away abierto</li>
-        </ol>
-        <button>Ver Horarios</button>
+        <ul>
+          <li className="listadelivery">Delivery abierto</li>
+          <li className="listadelivery">Take away abierto</li>
+        </ul>
+        <a href="#" className="butHorarios">
+          Ver Horarios
+        </a>
       </div>
     </div>
   );
