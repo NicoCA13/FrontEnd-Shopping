@@ -4,6 +4,7 @@ import imagenSend from "../../../assets/send.png";
 
 function ModalIngeso({ estaAbierto, funcionQueTogglea }) {
   let display;
+
   if (estaAbierto) {
     display = "block";
   } else {

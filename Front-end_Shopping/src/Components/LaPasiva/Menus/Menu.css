@@ -1,8 +1,10 @@
 .contenedorPadre {
-  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
 }
 .contenedorIzq {
-  width: 25%;
+  width: 20%;
   overflow-y: scroll;
   background-color: white;
 }
@@ -18,7 +20,7 @@
 .lista {
   list-style: none;
   display: flex;
-  margin: 7px;
+  padding: 7px;
 }
 .listaMenu:hover {
   background-color: #6c8454;
@@ -27,14 +29,12 @@
 
 .contenedorDer {
   background-color: #282b2e;
-  width: 70.5%;
-  position: absolute;
-  top: 0%;
-  left: 25%;
-  padding: 25px 40px;
+  width: 100%;
+  height: 150px;
+  padding-left: 20px;
 }
 .tituloMenu {
   color: white;
   font-weight: 100;
-  font-size: 60px;
+  font-size: 40px;
 }
