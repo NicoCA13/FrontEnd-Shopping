@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Nav.css";
 import carrito from "../../../assets/carritocompra.png";
-import ModalIngeso from "../ModalIngreso/ModalIngeso";
+import ModalIngeso from "../Modalhorario/Modalhorario";
 
 function Nav() {
   const [modalEstaAbierto, setModalEstaAbierto] = useState(false);

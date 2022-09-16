@@ -13,32 +13,72 @@ function Menu() {
           </li>
           <li className="lista">
             <a href="#" className="listaMenu">
-              Chivitos
+              Húngaras
             </a>
           </li>
           <li className="lista">
             <a href="#" className="listaMenu">
-              Ensaladas / Minutas
+              Chivitos (Lomo o Pollo)
             </a>
           </li>
           <li className="lista">
             <a href="#" className="listaMenu">
-              Hamburguesas
+              Carnes
             </a>
           </li>
           <li className="lista">
             <a href="#" className="listaMenu">
-              Pizzas
+              Pollo de granja
             </a>
           </li>
           <li className="lista">
             <a href="#" className="listaMenu">
-              Bebidas
+              Milanesas (Carne o Pollo)
+            </a>
+          </li>
+          <li className="lista">
+            <a href="#" className="listaMenu">
+              Hamburguesas caseras
+            </a>
+          </li>
+          <li className="lista">
+            <a href="#" className="listaMenu">
+              Pastas
+            </a>
+          </li>
+          <li className="lista">
+            <a href="#" className="listaMenu">
+              Vegetariano
+            </a>
+          </li>
+          <li className="lista">
+            <a href="#" className="listaMenu">
+              Pescado
+            </a>
+          </li>
+          <li className="lista">
+            <a href="#" className="listaMenu">
+              CERDO
+            </a>
+          </li>
+          <li className="lista">
+            <a href="#" className="listaMenu">
+              Pizzería
+            </a>
+          </li>
+          <li className="lista">
+            <a href="#" className="listaMenu">
+              Pizzetas
             </a>
           </li>
           <li className="lista">
             <a href="#" className="listaMenu">
               Postres
+            </a>
+          </li>
+          <li className="lista">
+            <a href="#" className="listaMenu">
+              BEBIDAS
             </a>
           </li>
         </ul>
