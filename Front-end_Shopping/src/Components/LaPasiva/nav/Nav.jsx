@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Nav.css";
 import carrito from "../../../assets/carritocompra.png";
+import ModalIngeso from "../ModalIngreso/ModalIngeso";
+
 function Nav() {
+  const [modalEstaAbierto, setModalEstaAbierto] = useState(false);
+  const openModal = () => {
+    setModalEstaAbierto(!modalEstaAbierto);
+  };
+
   return (
     <div className="header-la-pasiva">
       <span className="span-zona-opinion">
@@ -18,7 +25,7 @@ function Nav() {
       </span>
       <span className="span-ingresar-carrito">
         <p className="titulosNav">
-          <a href="#" className="titulosNav">
+          <a href="#" className="titulosNav" onClick={openModal}>
             INGRESAR
           </a>
         </p>
@@ -28,6 +35,10 @@ function Nav() {
           </a>
         </span>
       </span>
+      <ModalIngeso
+        estaAbierto={modalEstaAbierto}
+        funcionQueTogglea={openModal}
+      />
     </div>
   );
 }
