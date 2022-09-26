@@ -85,6 +85,20 @@ function Menu() {
       </div>
       <div className="contenedorDer">
         <h1 className="tituloMenu">Nuestro Menú</h1>
+        <div>
+          <h2>Frankuster</h2>
+          <div className="Carta-alimento">
+            <div className="Carta-alimento-imagen"> imagen </div>
+            <div Carta-alimento-info>
+              <h3>Frankuster Clasico</h3>
+              <p>Frankfurter clásico</p>
+              <div className="Precio-car-pasiva">
+                <div>130</div>
+                <div>Agregar</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

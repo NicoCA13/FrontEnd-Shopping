@@ -24,19 +24,51 @@
   padding: 7px;
 }
 .listaMenu:hover {
+  transition-property: margin-left;
+  transition-duration: 1s;
   background-color: #6c8454;
   color: white;
-  margin-left: 20px;
+  margin-left: 15px;
 }
 
 .contenedorDer {
+  display: flex;
+
+  justify-content: center;
+  flex-direction: column;
   background-color: #282b2e;
   width: 75vw;
-  height: 150px;
+  height: 100%;
   padding-left: 20px;
 }
 .tituloMenu {
   color: white;
   font-weight: 100;
   font-size: 40px;
+}
+.Carta-alimento {
+  border-radius: 20px;
+  width: 420px;
+  height: 200px;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+h2 {
+  color: white;
+}
+p,
+h3 {
+  margin-top: 0px;
+}
+.Precio-car-pasiva {
+  display: flex;
+  gap: 15px;
+  height: 100%;
+  position: relative;
+}
+.Carta-alimento-info {
+  display: flex;
 }
