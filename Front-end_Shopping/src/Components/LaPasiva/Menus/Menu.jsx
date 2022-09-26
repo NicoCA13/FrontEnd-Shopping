@@ -85,16 +85,55 @@ function Menu() {
       </div>
       <div className="contenedorDer">
         <h1 className="tituloMenu">Nuestro Menú</h1>
-        <div>
+        <div className="carta-alimentos">
           <h2>Frankuster</h2>
-          <div className="Carta-alimento">
-            <div className="Carta-alimento-imagen"> imagen </div>
-            <div Carta-alimento-info>
-              <h3>Frankuster Clasico</h3>
-              <p>Frankfurter clásico</p>
-              <div className="Precio-car-pasiva">
-                <div>130</div>
-                <div>Agregar</div>
+          <div className="Todos-los-alimentos">
+            <div className="Carta-alimento">
+              <div className="Carta-alimento-imagen">
+                <img
+                  src="	https://habitue-img.s3.sa-east-1.amazonaws.com/imagenes/1650379834.blob"
+                  alt=""
+                />
+              </div>
+              <div Carta-alimento-infos>
+                <h3>Frankuster Clasico</h3>
+                <p>Frankfurter clásico</p>
+                <div className="Precio-car-pasiva">
+                  <div>130</div>
+                  <div>Agregar</div>
+                </div>
+              </div>
+            </div>
+            <div className="Carta-alimento">
+              <div className="Carta-alimento-imagen">
+                <img
+                  src="	https://habitue-img.s3.sa-east-1.amazonaws.com/imagenes/1650379834.blob"
+                  alt=""
+                />
+              </div>
+              <div Carta-alimento-infos>
+                <h3>Frankuster Clasico</h3>
+                <p>Frankfurter clásico</p>
+                <div className="Precio-car-pasiva">
+                  <div>130</div>
+                  <div>Agregar</div>
+                </div>
+              </div>
+            </div>
+            <div className="Carta-alimento">
+              <div className="Carta-alimento-imagen">
+                <img
+                  src="	https://habitue-img.s3.sa-east-1.amazonaws.com/imagenes/1650379834.blob"
+                  alt=""
+                />
+              </div>
+              <div Carta-alimento-infos>
+                <h3>Frankuster Clasico</h3>
+                <p>Frankfurter clásico</p>
+                <div className="Precio-car-pasiva">
+                  <div>130</div>
+                  <div>Agregar</div>
+                </div>
               </div>
             </div>
           </div>
