@@ -1,26 +1,17 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import Nav from "./Components/LaPasiva/nav/Nav";
-import Header from "./Components/LaPasiva/Header/Header.jsx";
-import Menu from "./Components/LaPasiva/Menus/Menu.jsx";
-import Modalhorario from "./Components/LaPasiva/Modalhorario/Modalhorario.jsx";
-import { useState } from "react";
+import LaPasiva from "./Components/LaPasiva/LaPasiva";
+import Shopping from "./Components/Shopping/Shopping";
 
 function App() {
-  const [modalEstaAbierto, setModalEstaAbierto] = useState(false);
-
-  const onModalToggle = () => {
-    setModalEstaAbierto(!modalEstaAbierto);
-  };
-
   return (
     <div className="App">
-      <Nav />
-      <Header />
-      <Menu />
-      <Modalhorario
-        estaAbierto={modalEstaAbierto}
-        funcionQueTogglea={onModalToggle}
-      />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Shopping />} />
+          <Route path="/lapasiva" element={<LaPasiva />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
