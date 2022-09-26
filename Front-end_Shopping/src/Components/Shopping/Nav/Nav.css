@@ -1,0 +1,28 @@
+.shoppingNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 10px 1px #888888;
+    height: 80px;
+}
+
+.logoShopping{
+    font-size: 2.2rem;
+}
+
+.contenedorIconosNav{
+    position: absolute;
+    display: flex;
+    gap: 12px;
+    right: 0;
+    padding-right: 50px;
+}
+
+.iconsNav{
+    cursor: pointer;
+}
+
+.iconsNav:hover{
+    opacity: 80%;
+    transform: scale(1.05)
+}
