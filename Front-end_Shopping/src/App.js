@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import LaPasiva from "./Components/LaPasiva/LaPasiva";
+import Starbucks from "./Components/Starbucks/Starbucks";
 import Shopping from "./Components/Shopping/Shopping";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Shopping />} />
           <Route path="/lapasiva" element={<LaPasiva />} />
+          <Route path="/Starbucks" element={<Starbucks />} />
         </Routes>
       </BrowserRouter>
     </div>

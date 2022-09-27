@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+/* header > img {
+  /* width: 926px;
+  height: 371px; */
+/* } */
+*/ .contenedor-principal-header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+aside {
+  background: rgb(17, 30, 28);
+  background: linear-gradient(
+    0deg,
+    rgba(17, 30, 28, 1) 29%,
+    rgba(31, 58, 49, 1) 71%
+  );
+}

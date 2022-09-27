@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+.icono-starbucks > img {
+  padding-left: 1rem;
+  width: 90%;
+}
+nav {
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+  height: 7rem;
+}
+.contenedor-nav {
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+}
+.nav-items > ul {
+  padding-left: 2rem;
+  display: flex;
+  column-gap: 20px;
+  font-weight: 700;
+}
+.ul-nav > li:hover {
+  color: green;
+}
+.encuentranos {
+  column-gap: 20px;
+  align-items: center;
+  display: flex;
+  padding-right: 4rem;
+}
+.encuentranos > img {
+  width: 19px;
+}
+.encuentranos:hover {
+  color: grey;
+}

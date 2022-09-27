@@ -1,6 +1,15 @@
 import React from "react";
-import "../Starbucks/inicio.css";
+import "../Starbucks/Starbucks.css";
+import Nav from "../Starbucks/Nav/Nav";
+import Header from "../Starbucks/Header/Header";
+// import Footer from "../Starbucks/Footer/Footer";
 
 export default function inicio() {
-  return <div>inicio</div>;
+  return (
+    <div>
+      <Nav />
+      <Header />
+      {/* <Footer /> */}
+    </div>
+  );
 }
