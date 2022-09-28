@@ -18,3 +18,9 @@ aside {
     rgba(31, 58, 49, 1) 71%
   );
 }
+.titulo {
+  color: white;
+}
+h2 {
+  color: black;
+}
